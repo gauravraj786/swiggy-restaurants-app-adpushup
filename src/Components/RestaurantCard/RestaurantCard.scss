@@ -1,0 +1,52 @@
+.restaurant-card {
+  margin: 20px 20px 57px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 16px;
+  width: 200px;
+}
+
+.card-hover {
+  border: 1px solid #d3d5df;
+  box-shadow: 0 16px 20px 0 #dadce6;
+  text-decoration: none;
+  outline: none;
+}
+
+img {
+  height: 160px;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: 500;
+  word-break: break-word;
+  margin-top: 14px;
+}
+.subtitle1 {
+  color: #686b78;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.details {
+  display: flex;
+  margin-top: 14px;
+  font-size: 12px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  align-items: center;
+  color: #535665;
+}
+
+.rating {
+  background-color: #48c479;
+  color: #fff;
+  padding: 0 5px;
+  width: 43px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
